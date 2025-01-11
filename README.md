@@ -35,7 +35,7 @@ Looking for someone to take your project to the next level? I’m ready to bring
 [![](https://visitcount.itsvg.in/api?id=manhtuan28&icon=4&color=0)](https://visitcount.itsvg.in)
 
   ## 💰You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/buimanhtuan2k4@gmail.com) 
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/buituan282) 
 
   <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
   
