@@ -31,9 +31,6 @@ Looking for someone to take your project to the next level? I’m ready to bring
 ### ✍️Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
-### 😂Random Dev Meme
-<img src="[https://random-memer.herokuapp.com/](https://images3.memedroid.com/images/UPLOADED556/5f89afcb4ee71.jpeg)" width="512px"/>
-
 ---
 [![](https://visitcount.itsvg.in/api?id=manhtuan28&icon=4&color=0)](https://visitcount.itsvg.in)
 
