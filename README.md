@@ -3,8 +3,7 @@
 
 Hi there! I'm a highly skilled web and application developer with a proven track record of delivering exceptional digital solutions. I specialize in creating responsive, lightning-fast websites and user-friendly applications that don’t just look amazing but also perform flawlessly.
 
-🚀 What Sets Me Apart
-
+🚀 What Sets Me Apart  
 Expert-Level Proficiency: Mastery in HTML5, CSS3, JavaScript, and Bootstrap, ensuring every project is polished to perfection.
 Problem Solver Extraordinaire: I love tackling complex challenges and transforming them into simple, elegant, and scalable solutions.
 Attention to Detail: From pixel-perfect designs to smooth animations, I ensure every line of code contributes to a seamless user experience.
@@ -14,7 +13,7 @@ Results That Speak: I bring ideas to life with modern, innovative, and efficient
 Client-Focused: Your vision is my priority—delivering projects on time, within scope, and beyond expectations.
 Passion for Excellence: I’m not just a developer; I’m your partner in building digital products that stand out in today’s competitive market.
 
-💬 Let’s Talk!
+💬 Let’s Talk!  
 Looking for someone to take your project to the next level? I’m ready to bring my expertise, energy, and creativity to your team. Let’s create something amazing together!
 
 ## 🌐Socials
