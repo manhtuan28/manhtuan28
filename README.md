@@ -15,7 +15,6 @@ Client-Focused: Your vision is my priority—delivering projects on time, within
 Passion for Excellence: I’m not just a developer; I’m your partner in building digital products that stand out in today’s competitive market.
 
 💬 Let’s Talk!
-
 Looking for someone to take your project to the next level? I’m ready to bring my expertise, energy, and creativity to your team. Let’s create something amazing together!
 
 ## 🌐Socials
