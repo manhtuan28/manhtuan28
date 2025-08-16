@@ -1,7 +1,7 @@
 // Smooth scrolling for navigation links
 document.addEventListener('DOMContentLoaded', function() {
     // Get all navigation links
-    const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+    const navLinks = document.querySelectorAll('a[href^="#"]');
     
     // Add smooth scrolling to all navigation links
     navLinks.forEach(link => {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (targetSection) {
                 // Calculate offset for fixed navbar
-                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 70;
                 const targetPosition = targetSection.offsetTop - navbarHeight;
                 
                 window.scrollTo({
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', function() {
         let current = '';
         const sections = document.querySelectorAll('section[id]');
-        const navbarHeight = document.querySelector('.navbar').offsetHeight;
+        const navbarHeight = document.querySelector('.navbar')?.offsetHeight || 70;
         
         sections.forEach(section => {
             const sectionTop = section.offsetTop - navbarHeight - 50;
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         // Remove active class from all nav links
-        navLinks.forEach(link => {
+        document.querySelectorAll('.nav-link').forEach(link => {
             link.classList.remove('active');
             if (link.getAttribute('href') === `#${current}`) {
                 link.classList.add('active');
@@ -50,45 +50,34 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Animate progress bars when skills section is in view
-    const skillsSection = document.querySelector('#skills');
-    const progressBars = document.querySelectorAll('.progress-bar');
-    
-    const animateProgressBars = () => {
-        const sectionTop = skillsSection.offsetTop - window.innerHeight + 100;
-        
-        if (window.pageYOffset > sectionTop) {
-            progressBars.forEach(bar => {
-                const width = bar.style.width;
-                bar.style.setProperty('--progress-width', width);
-                bar.classList.add('animate');
-            });
-        }
-    };
-    
-    // Check if skills section is in view on scroll
-    window.addEventListener('scroll', animateProgressBars);
-    
-    // Initial check
-    animateProgressBars();
-    
-    // Add typing effect to hero title
-    const heroTitle = document.querySelector('.hero-content h1');
-    if (heroTitle) {
-        const text = heroTitle.innerHTML;
-        heroTitle.innerHTML = '';
-        let i = 0;
-        
-        function typeWriter() {
-            if (i < text.length) {
-                heroTitle.innerHTML += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, 50);
+    const skillsObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const progressBars = entry.target.querySelectorAll('.progress-bar');
+                progressBars.forEach((bar, index) => {
+                    setTimeout(() => {
+                        bar.style.width = bar.getAttribute('data-width') || bar.style.width;
+                    }, index * 200);
+                });
+                skillsObserver.unobserve(entry.target);
             }
-        }
-        
-        // Start typing effect after page load
-        setTimeout(typeWriter, 500);
+        });
+    }, { threshold: 0.3 });
+    
+    const skillsSection = document.querySelector('#skills');
+    if (skillsSection) {
+        skillsObserver.observe(skillsSection);
     }
+    
+    // Remove parallax effect that was causing text to disappear
+    // const hero = document.querySelector('.hero-section');
+    // window.addEventListener('scroll', function() {
+    //     const scrolled = window.pageYOffset;
+    //     const parallaxSpeed = 0.5;
+    //     if (hero) {
+    //         hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
+    //     }
+    // });
     
     // Add hover effect for skill cards
     const skillCards = document.querySelectorAll('.skill-card');
@@ -106,16 +95,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Navbar background change on scroll
     const navbar = document.querySelector('.navbar');
     
-    window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 50) {
-            navbar.classList.add('scrolled');
-            navbar.style.backgroundColor = 'rgba(33, 37, 41, 0.95)';
-            navbar.style.backdropFilter = 'blur(10px)';
-        } else {
-            navbar.classList.remove('scrolled');
-            navbar.style.backgroundColor = 'rgba(33, 37, 41, 1)';
-        }
-    });
+    if (navbar) {
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    }
     
     // Contact form animation (if needed later)
     const contactCards = document.querySelectorAll('.contact-card');
@@ -129,13 +117,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarCollapse = document.querySelector('.navbar-collapse');
     
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            if (navbarCollapse.classList.contains('show')) {
-                navbarToggler.click();
-            }
+    if (navbarToggler && navbarCollapse) {
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarToggler.click();
+                }
+            });
         });
-    });
+    }
     
     // Add loading animation
     window.addEventListener('load', function() {
@@ -145,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Intersection Observer for animations
     const observerOptions = {
         threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
+        rootMargin: '0px 0px -100px 0px'
     };
     
     const observer = new IntersectionObserver(function(entries) {
@@ -163,89 +153,60 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Add scroll-to-top functionality
-    const scrollToTopBtn = document.createElement('button');
-    scrollToTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
-    scrollToTopBtn.className = 'btn btn-primary scroll-to-top';
-    scrollToTopBtn.style.cssText = `
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        display: none;
-        z-index: 1000;
-        transition: all 0.3s ease;
-    `;
-    
-    document.body.appendChild(scrollToTopBtn);
-    
-    // Show/hide scroll-to-top button
-    window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 500) {
-            scrollToTopBtn.style.display = 'block';
-        } else {
-            scrollToTopBtn.style.display = 'none';
-        }
-    });
-    
-    // Scroll to top functionality
-    scrollToTopBtn.addEventListener('click', function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-});
-
-// Add some interactive features
-document.addEventListener('DOMContentLoaded', function() {
-    // Add parallax effect to hero section
-    const hero = document.querySelector('.hero-section');
-    
-    window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const parallaxSpeed = 0.5;
+    function createScrollToTopButton() {
+        const scrollToTopBtn = document.createElement('button');
+        scrollToTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
+        scrollToTopBtn.className = 'scroll-to-top';
+        scrollToTopBtn.style.display = 'none';
         
-        if (hero) {
-            hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
-        }
-    });
-    
-    // Add counter animation for skills
-    const animateCounter = (element, start, end, duration) => {
-        let startTime = null;
+        document.body.appendChild(scrollToTopBtn);
         
-        const step = (currentTime) => {
-            if (!startTime) startTime = currentTime;
-            const progress = Math.min((currentTime - startTime) / duration, 1);
-            const value = Math.floor(progress * (end - start) + start);
-            element.textContent = value + '%';
-            
-            if (progress < 1) {
-                requestAnimationFrame(step);
-            }
-        };
-        
-        requestAnimationFrame(step);
-    };
-    
-    // Trigger counter animation when skills section is visible
-    const skillsObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const progressBars = entry.target.querySelectorAll('.progress-bar');
-                progressBars.forEach(bar => {
-                    const percentage = parseInt(bar.style.width);
-                    // Add counter if needed
-                });
-                skillsObserver.unobserve(entry.target);
+        // Show/hide scroll-to-top button
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 500) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
             }
         });
-    });
-    
-    const skillsSection = document.querySelector('#skills');
-    if (skillsSection) {
-        skillsObserver.observe(skillsSection);
+        
+        // Scroll to top functionality
+        scrollToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     }
+    
+    createScrollToTopButton();
+    
+    // Add data attributes for progress bars
+    document.querySelectorAll('.progress-bar').forEach(bar => {
+        const width = bar.style.width;
+        bar.setAttribute('data-width', width);
+        bar.style.width = '0%';
+    });
+    
+    // Smooth reveal animations for sections
+    const revealElements = document.querySelectorAll('.skill-card, .education-card, .contact-card');
+    
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }, index * 100);
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    revealElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        revealObserver.observe(el);
+    });
 });
