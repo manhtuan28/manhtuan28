@@ -1,20 +1,26 @@
-# 💫About Me :
-👨‍💻 About Me
+#🔐 About Me
 
-Hi there! I'm a highly skilled web and application developer with a proven track record of delivering exceptional digital solutions. I specialize in creating responsive, lightning-fast websites and user-friendly applications that don’t just look amazing but also perform flawlessly.
+Hi there! I’m a final-year student majoring in Cybersecurity & Information Security. I’m passionate about exploring how cyberattacks work and how to defend against them, aiming to build safer and more reliable digital environments.
 
-🚀 What Sets Me Apart  
-Expert-Level Proficiency: Mastery in HTML5, CSS3, JavaScript, and Bootstrap, ensuring every project is polished to perfection.
-Problem Solver Extraordinaire: I love tackling complex challenges and transforming them into simple, elegant, and scalable solutions.
-Attention to Detail: From pixel-perfect designs to smooth animations, I ensure every line of code contributes to a seamless user experience.
+🚀 What I Bring
 
-🌟 Why Work With Me?  
-Results That Speak: I bring ideas to life with modern, innovative, and efficient code.
-Client-Focused: Your vision is my priority—delivering projects on time, within scope, and beyond expectations.
-Passion for Excellence: I’m not just a developer; I’m your partner in building digital products that stand out in today’s competitive market.
+Solid Foundation: Gaining hands-on knowledge in network security, cryptography, penetration testing, and system administration.
 
-💬 Let’s Talk!  
-Looking for someone to take your project to the next level? I’m ready to bring my expertise, energy, and creativity to your team. Let’s create something amazing together!
+Problem-Solving Mindset: Curious about vulnerabilities and eager to turn theory into practical defense strategies.
+
+Attention to Detail: From analyzing logs to fine-tuning configurations, I strive to eliminate potential security gaps.
+
+🌟 Why Me?
+
+Fast Learner: Always eager to dive into new technologies and security tools.
+
+Responsible & Reliable: Committed to completing tasks on time with a focus on quality and security.
+
+Passion for Security Labs: Enthusiastic about practicing in labs, experimenting with firewalls, VLANs, NAT, and pentesting tools.
+
+💬 Looking Ahead
+
+I’m seeking opportunities for internships, projects, or security teams where I can sharpen my skills, learn from industry professionals, and contribute to creating secure systems.
 
 ## 🌐Socials
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](htttps://discord.gg/nugget282) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/bmanhtuan2802) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@https://www.tiktok.com/@capyboiii_28) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/https://x.com/buituan282) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/c/https://www.youtube.com/@Tuancute28) 
