@@ -1,4 +1,4 @@
-#🔐 About Me
+🔐 About Me
 
 Hi there! I’m a final-year student majoring in Cybersecurity & Information Security. I’m passionate about exploring how cyberattacks work and how to defend against them, aiming to build safer and more reliable digital environments.
 
