@@ -4,23 +4,20 @@ Hi there! I’m **Bùi Mạnh Tuấn**, a Senior IT Student passionate about bui
 
 ## 🚀 What I Do
 
-* **🕸️ Web Development:** Building robust backend logic and real-time features using **C# (.NET Core)** and **PHP (Laravel)**, paired with modern interfaces using **Next.js** and **ReactJS**.
-* **🤖 AI & Computer Vision:** Developing real-time image processing applications using **Python**, **OpenCV**, and optimizing hardware inference with **ONNX Runtime (DirectML)**.
-* **⚙️ System & Automation:** Automating workflows with CI/CD (**GitHub Actions**), writing custom CLI tools (**Batch/PowerShell**), handling media streams with **FFmpeg**, and managing **Linux/Windows Servers**.
-* **🛠️ Tech Tinkering:** Exploring Android architecture/reverse engineering, and actively contributing to open-source programming communities (like **J2TEAM**).
+* **Frontend Magic:** Building responsive, interactive, and modern user interfaces using **ReactJS**, **TailwindCSS**, and **Bootstrap 5**.
+* **Backend Logic:** Developing robust server-side logic and APIs with **Node.js** and **PHP**.
+* **Database Management:** Designing schemas and handling data efficiently with **MySQL** and **SQL Server**.
+* **System & Tools:** Comfortable working with **Linux** environments and using **Git** for version control.
 
 ## 🛠️ Tech Stack & Arsenal
 
 My current toolkit for building and breaking things:
 
-### 💻 Languages & Frameworks
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
+### 🎨 Frontend
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### ⚙️ System, AI & Tools
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-
+### ⚙️ Backend
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ### 🗄️ Databases
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
