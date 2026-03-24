@@ -1,38 +1,38 @@
-# 💻 Aspiring Full Stack Developer
+# 💻 Versatile Software Engineer & Tech Enthusiast
 
-Hi there! I’m a **Senior Student** passionate about Web Development. I am currently on a journey to become a versatile **Full Stack Developer**, mastering both the art of designing intuitive user interfaces and the logic of efficient server-side systems.
+Hi there! I’m **Bùi Mạnh Tuấn**, a Senior IT Student passionate about building systems, exploring software architecture, and tinkering with new technologies. While I have a strong foundation in Web Development, my true passion lies in solving complex problems across different domains—from server configurations to real-time AI processing.
 
 ## 🚀 What I Do
 
-* **Frontend Magic:** Building responsive, interactive, and modern user interfaces using **ReactJS**, **TailwindCSS**, and **Bootstrap 5**.
-* **Backend Logic:** Developing robust server-side logic and APIs with **Node.js** and **PHP**.
-* **Database Management:** Designing schemas and handling data efficiently with **MySQL** and **SQL Server**.
-* **System & Tools:** Comfortable working with **Linux** environments and using **Git** for version control.
+* **🕸️ Web Development:** Building robust backend logic and real-time features using **C# (.NET Core)** and **PHP (Laravel)**, paired with modern interfaces using **Next.js** and **ReactJS**.
+* **🤖 AI & Computer Vision:** Developing real-time image processing applications using **Python**, **OpenCV**, and optimizing hardware inference with **ONNX Runtime (DirectML)**.
+* **⚙️ System & Automation:** Automating workflows with CI/CD (**GitHub Actions**), writing custom CLI tools (**Batch/PowerShell**), handling media streams with **FFmpeg**, and managing **Linux/Windows Servers**.
+* **🛠️ Tech Tinkering:** Exploring Android architecture/reverse engineering, and actively contributing to open-source programming communities (like **J2TEAM**).
 
 ## 🛠️ Tech Stack & Arsenal
 
-My current toolkit for building web applications:
+My current toolkit for building and breaking things:
 
-### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+### 💻 Languages & Frameworks
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
 
-### ⚙️ Backend
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+### ⚙️ System, AI & Tools
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
 ### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-
-### ☁️ Tools & OS
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## 🌟 Why Me?
 
-* **Eager to Learn:** As a senior student, I am constantly updating my skill set to keep up with the latest industry trends.
-* **Adaptable:** I can switch between Frontend styling and Backend logic to solve problems holistically.
-* **Team Player:** Experienced in using Git for collaboration and code management.
+* **Eager to Learn:** I don't just stick to what I know. From learning hardware optimization for AMD GPUs to setting up WebRTC for social networks, I adapt fast.
+* **Problem Solver:** Whether it's database migrations, UI/UX, or writing scripts to bypass manual tasks, I focus on the most efficient solution.
+* **Community Driven:** I believe in sharing knowledge and contributing to the tech ecosystem.
 
 ## 💬 Looking Ahead
 
-I’m actively seeking **Internship** or **Fresher** opportunities where I can contribute my skills in Full Stack Development and grow alongside a talented team.
+I’m actively seeking **Fresher / IT Software Engineer** opportunities where I can tackle challenging technical problems, optimize systems, and grow alongside a talented team.
 
 ## 🌐 Connect with Me
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/nugget282) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/bmanhtuan2802) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://www.tiktok.com/@capyboiii_28) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://x.com/buituan282) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/@Tuancute28) 
